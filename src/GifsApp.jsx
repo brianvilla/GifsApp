@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { Category } from "./components/Category";
-import { NoData } from "./components/NoData";
+import { AddCategory, Category, NoData } from "./components/";
 
 export const GifsApp = () => {
   const [categories, setCategories] = useState([]);

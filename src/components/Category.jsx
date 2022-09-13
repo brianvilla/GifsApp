@@ -1,6 +1,5 @@
 import { useFetchGifs } from "../hooks/useFetchGifs";
-import { Gif } from "./Gif";
-import { Loader } from "./Loader";
+import { Gif, Loader } from "./";
 
 export const Category = ({ category }) => {
   const { gifs, isLoading } = useFetchGifs(category);
